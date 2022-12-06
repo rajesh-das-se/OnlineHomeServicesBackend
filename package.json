@@ -1,0 +1,30 @@
+{
+  "name": "college-student-lookup",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.13.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Rajesh Das",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.6",
+    "react-ga": "^3.3.0"
+  }
+}
